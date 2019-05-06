@@ -1,0 +1,166 @@
+input:focus ~ .floating-label,
+input:not(:focus):valid ~ .floating-label{
+  top: 6px;
+  left: 50px;
+  background-color: white;
+  display: inline;
+  font-size: 15px;
+  color: rgb(8, 227, 243);
+  font-family: 'Quicksand', sans-serif;
+  
+}
+
+.floating-label {
+  font-family: 'Quicksand', sans-serif;
+  position: absolute;
+  pointer-events: none;
+  left: 45px;
+  font-size: 20px;
+  color:rgb(201, 194, 194);
+  top: 30px;
+  transition: 0.2s ease all;
+}
+
+.container {
+  top:130px;
+  position: relative;
+  padding: 16px;
+  max-width: 570px;
+  margin: auto;
+  border-style: solid;
+  border-width: 2px;
+
+}
+/*first*/
+input[type=text] {
+  border: 1px solid rgb(201, 194, 194);
+  outline: none;
+  left:50px;
+  border-radius: 60px;
+  padding: 20px;
+  width: 230px;
+  height: 12px;
+
+}
+
+input[type=text]:focus {
+  border-color: rgb(8, 227, 243);
+}
+/*last*/
+
+.floating-label1 {
+  font-family: 'Quicksand', sans-serif;
+  position: absolute;
+  pointer-events: none;
+  left: 315px;
+  font-size: 20px;
+  color:rgb(201, 194, 194);;
+  top: 30px;
+  transition: 0.2s ease all;
+}
+input:focus ~ .floating-label1,
+input:not(:focus):valid ~ .floating-label1{
+  top: 6px;
+  left: 325px;
+  background-color: white;
+  display: inline;
+  font-size: 15px;
+  color: rgb(8, 227, 243);
+  font-family: 'Quicksand', sans-serif;
+  
+}
+
+
+
+/*phone*/
+.mob {
+  font-family: 'Quicksand', sans-serif;
+ position: absolute;
+  pointer-events: none;
+  left: 50px;
+  font-size: 20px;
+  color:rgb(201, 194, 194);;
+  top: 105px;
+  transition: 0.2s ease all;
+}
+input:focus ~ .mob,
+input:not(:focus):valid ~ .mob{
+  top: 80px;
+  left: 55px;
+  background-color: white;
+  display: inline;
+  font-size: 15px;
+  color: rgb(8, 227, 243);
+  font-family: 'Quicksand', sans-serif;
+  
+}
+
+input[type=tel]:focus {
+  border-color: rgb(8, 227, 243);
+}
+
+input[type=tel] {
+  border: 1px solid rgb(201, 194, 194);
+  outline: none;
+  left:50px;
+  border-radius: 60px;
+  padding: 20px;
+  width: 512px;
+  height: 12px;
+
+}
+
+/*mail*/
+.mail {
+  font-family: 'Quicksand', sans-serif;
+ position: absolute;
+  pointer-events: none;
+  left: 50px;
+  font-size: 20px;
+  color:rgb(201, 194, 194);;
+  top: 175px;
+  transition: 0.2s ease all;
+}
+input:focus ~ .mail,
+input:not(:focus):valid ~ .mail{
+  top: 150px;
+  left: 55px;
+  background-color: white;
+  display: inline;
+  font-size: 15px;
+  color: rgb(8, 227, 243);
+  font-family: 'Quicksand', sans-serif;
+  
+}
+
+input[type=email]:focus {
+  border-color: rgb(8, 227, 243);
+}
+
+input[type=email] {
+  border: 1px solid rgb(201, 194, 194);
+  outline: none;
+  left:50px;
+  border-radius: 60px;
+  padding: 20px;
+  width: 512px;
+  height: 12px;
+
+}
+
+/*button*/
+.button{
+  border: 1px solid transparent;
+  outline: none;
+  background-color: rgb(45, 205, 211);
+  color: white;
+  cursor: pointer;
+  margin-left:180px;
+  font-family: 'Anton', sans-serif;
+  font-size: 25px;
+  font-weight: bolder;
+  border-radius: 60px;
+  text-align: center;
+  padding: 15px;
+  width: 190px;
+  height: 65px;}
